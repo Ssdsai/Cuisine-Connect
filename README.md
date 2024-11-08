@@ -1,2 +1,2 @@
 # Cuisine-Connect
-A Food Ordering Chatbot
+A Food Ordering AI Chatbot
