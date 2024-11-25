@@ -1,0 +1,86 @@
+/* Orders Page Styling */
+.orders-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+/* Orders Content Styling */
+.orders-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Heading */
+/* Example for Orders Heading */
+.orders-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Orders List */
+.orders-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Individual Order Item */
+.order-item {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Order ID Styling */
+.order-id {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #2755a3;
+}
+
+/* Customer Name Styling */
+.order-customer-name, .order-delivery-address {
+    margin: 5px 0;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/* Order Items Heading */
+.order-items-heading {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Order Items List */
+.order-items-list {
+    list-style: none;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+/* Individual Order Item Detail */
+.order-item-detail {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* No Orders Message */
+.no-orders-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin: 20px 0;
+}

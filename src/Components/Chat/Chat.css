@@ -1,0 +1,237 @@
+/* Body - Fullscreen background */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/public/images/background.jpg'); /* Specify your image path */
+    background-size: cover; /* Ensures the image covers the full screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    height: 100vh; /* Full viewport height */
+    font-family: Arial, sans-serif; /* Optional: sets a clean font */
+}
+
+/* Chat container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures input stays at the bottom */
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px; /* Optional: spacing inside the container */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for distinction */
+}
+
+/* Chat window */
+.chat-window {
+    width: 100%;
+    max-width: 600px;
+    flex-grow: 1; /* Takes all available space */
+    overflow-y: auto; /* Enables scrolling for content overflow */
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    margin-bottom: 15px; /* Adds space between the chat window and input */
+}
+
+/* Chat input container */
+.chat-input-container {
+    display: flex;
+    align-items: center; /* Centers the input and button vertically */
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px; /* Padding inside the input container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for input box */
+}
+
+/* Chat input */
+.chat-input {
+    flex-grow: 1; /* Input field grows to fill space */
+    border: none; /* Removes border */
+    outline: none; /* Removes focus outline */
+    padding: 12px 15px;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+/* Send button */
+.send-button {
+    margin-left: 10px; /* Space between input and button */
+    padding: 12px 20px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.send-button:disabled {
+    background-color: #ccc;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}
+
+/* Messages Styling */
+/* General styles for the message content */
+.message-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    gap: 10px; /* Add spacing between elements */
+    background-color: #e8f5e9; /* Light green background for bot messages */
+    color: #333; /* Darker text for better readability */
+    padding: 10px 15px; /* Add padding for space inside the box */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 75%; /* Limit the width of the message bubble */
+    font-family: Arial, sans-serif; /* Use a clean font */
+    font-size: 14px; /* Adjust font size */
+    line-height: 1.5; /* Increase line spacing for readability */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 15px;
+}
+
+/* Specific styles for the <p> elements */
+.message-content p {
+    font-weight: bold; /* Make the text bold */
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    /* -apple-system and BlinkMacSystemFont are for San Francisco on macOS and iOS */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-size: 16px; /* Slightly larger font for emphasis */
+    color: #333; /* Dark color for readability */
+}
+
+/* Style for user messages */
+.user-message .message-content {
+    background-color: #dbeeff; /* Light blue background for user messages */
+    align-self: flex-end; /* Align to the right */
+}
+
+/* Style for bot messages */
+.bot-message .message-content {
+    background-color: #f1f1f1; /* Light gray background for bot messages */
+    align-self: flex-start; /* Align to the left */
+}
+
+.food-image,.uploaded-image {
+    width: 50%; /* Adjust the width for better visibility */
+    max-width: 400px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    margin-top: 10px; /* Space above the image */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.food-image:hover,.uploaded-image {
+    transform: scale(1.05); /* Slightly zoom the image on hover */
+}
+
+.add-to-cart-button {
+    margin-top: 10px; /* Space above the button */
+    padding: 10px 20px; /* Adjust padding */
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+    background-color: #218838;
+}
+
+.add-to-cart-button:active {
+    background-color: #1e7e34;
+}
+
+.chat-input-container {
+    display: flex; /* Align items in a single row */
+    align-items: center; /* Vertically center the items */
+    gap: 10px; /* Add spacing between elements */
+    padding: 10px; /* Add padding around the form */
+    background-color: #f9f9f9; /* Optional: background color */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.chat-input {
+    flex: 2; /* Allow the text input to take up more space */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.file-upload {
+    flex: 1; /* Adjust width relative to the input */
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.send-button {
+    flex: 0.5; /* Allow the button to shrink slightly */
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}
+
+.send-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+/* Order Form */
+.order-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-form h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.order-form input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.order-form input:focus {
+    border-color: #007bff;
+    outline: none;
+}

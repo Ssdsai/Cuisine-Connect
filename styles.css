@@ -1,0 +1,272 @@
+@import url('http://fonts.googleapis.com/css?family=Pontano+Sans');
+
+/* Global Styles */
+body {
+    background: #E6E7E9;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pontano Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #888;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*******************************Header************************
+/* Header Styles */
+header {
+    padding: 35px 0;
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 a {
+    color: #799AC0;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: -2px;
+    line-height: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header h1 a span {
+    color: #DE2D3A;
+}
+
+header h2 {
+    color: #E6E7E9;
+    font-size: 13px;
+    position: relative;
+    top: -5px;
+}
+
+
+*******************************Navbar************************
+/* Navigation Styles */
+nav {
+    height: 70px;
+    background-color: #799AC0;
+}
+
+nav ul {
+    height: 70px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #eee;
+    display: block;
+    font-family: 'Pontano Sans', Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 28px 20px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-right: 1px solid #668CB7;
+}
+
+nav ul li.selected a,
+nav ul li.selected a:hover {
+    background-color: #4076AB;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background-color: #4076AB;
+    text-decoration: none;
+}
+
+/* Button Styles */
+.Login {
+    margin-left: 100px; /* Adjusted margin to move the button 50px to the right */
+    background-color: #DE2D3A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Login:hover {
+    background-color: #C72C29;
+}
+
+
+*******************************Body************************
+/* Main Container Styles */
+#container {
+    width: 960px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 5px 5px 5px #CCCCCC;
+    background-color: #fff;
+}
+
+#body {
+    background: none;
+    margin: 0 auto;
+    padding: 0;
+    clear: both;
+}
+
+/* Content Styles */
+#content {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+
+article {
+    border-bottom: 2px solid #ddd;
+    padding: 10px 10px 20px 10px;
+}
+
+article h2 {
+    padding-bottom: 0;
+}
+
+*******************************Sidebar************************
+/* Sidebar Styles */
+.sidebar {
+    float: left;
+    width: 28%;
+    margin-top: 10px;
+}
+
+.sidebar h4 {
+    padding-bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 7px 7px;
+    border-bottom: 1px solid #A31923;
+    background-color: #DE2D3A;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul li {
+    background-color: #E6E7E9;
+    margin-bottom: 20px;
+    line-height: 1.9em;
+}
+
+.sidebar li ul {
+    list-style: none;
+    margin: 0;
+}
+
+.sidebar li ul li {
+    display: block;
+    padding: 7px;
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 13.5px;
+}
+
+.sidebar li ul li a {
+    font-weight: normal;
+}
+
+.sidebar li ul li a:hover {
+    color: #799AC0;
+    font-weight: bold;
+}
+
+
+*******************************Footer************************
+/* Footer Styles */
+footer {
+    margin: 20px auto 0;
+    width: 960px;
+}
+
+footer p {
+    text-align: left;
+    color: #ccc;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+footer p a {
+    color: #ccc;
+    font-weight: bold;
+}
+
+.footer-bottom {
+    padding: 10px;
+    text-align: center;
+    background-color: #DB2C39;
+}
+
+.footer-bottom p {
+    text-align: center;
+    color: #eee;
+}
+
+
+.order-status {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+
+  .cart-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .OrderStatusButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .OrderStatusButton:hover {
+    background-color: #0056b3;
+  }
+  
+
+

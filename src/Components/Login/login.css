@@ -1,0 +1,73 @@
+/* Updated styles for Login page to match CreateAccount page styling */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto; /* Center and add margin from the top */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Adjust if your site uses a different background color */
+    margin-top: 10%;
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Adjust text color to match your site's theme */
+    font-size: 28px; /* Increased font size from default */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Adjust text color to match your site's theme */
+    font-size: 16px; /* Increased font size from default */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px; /* Increased padding for better usability */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners for input fields */
+    font-size: 16px; /* Increased font size from default */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+  }
+  
+  .login-container button {
+    padding: 12px; /* Increased padding for better usability */
+    border: none;
+    border-radius: 4px;
+    background-color: #6189b8; /* Adjust color to match your site’s theme */
+    color: #fff;
+    font-size: 18px; /* Increased font size from default */
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #4076AB; /* Adjust hover color to match your site’s theme */
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .signup-link a {
+    color: #007bff; /* Adjust color to match your site’s theme */
+    text-decoration: none;
+    font-size: 16px; /* Increased font size for better readability */
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  

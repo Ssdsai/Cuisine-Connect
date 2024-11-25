@@ -1,0 +1,32 @@
+/* Footer Styles */
+footer {
+    background-color: #f0e262; /* Background color for the footer */
+    color: #333; /* Text color for good contrast */
+    padding: 10px 10px; /* Padding around the footer content */
+    text-align: center; /* Center the text content */
+    border-top: 2px solid #e0d252; /* Optional border for a subtle effect */
+    font-family: Arial, sans-serif; /* Font for the footer */
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make the link text bold */
+  }
+  
+  footer a:hover {
+    color: #555; /* Darker color for hover state */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Footer Bottom Section */
+  .footer-bottom {
+    margin-top: 10px; /* Add spacing at the top */
+  }
+  
+  #container {
+    margin-left: -10px; /* Adjust position as per your layout */
+    margin-top: 12px;
+  }
+  

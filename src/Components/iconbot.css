@@ -1,0 +1,22 @@
+/* bot.css */
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    width: 80px; /* Adjust size as needed */
+    height: 80px;
+    z-index: 1000; 
+    border-radius: 35px;
+    padding: 20px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .chatbot-icon img {
+    width: 100%;
+    height: 100%;
+    border: 3px solid grey; /* Adds a grey border to the image */
+    border-radius: 50%; /* Optional: makes the border circular if the icon is square */
+  }
+  
